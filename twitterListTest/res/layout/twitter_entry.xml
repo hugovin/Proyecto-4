@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+
+     <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/avatarImageView">
+     </ImageView>
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/usernameTextView" 
+        android:text="username" 
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:layout_alignParentTop="true">
+    </TextView>
+
+    <TextView 
+        android:id="@+id/bodyTextView" 
+        android:layout_below="@+id/usernameTextView" 
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="body">
+    </TextView>
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_toRightOf="@+id/usernameTextView" 
+        android:id="@+id/dateTextView" 
+        android:text="date">
+    </TextView>
+</RelativeLayout>
